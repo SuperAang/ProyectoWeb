@@ -1,0 +1,89 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+h1{
+    margin: 0;
+}
+#logo{
+    background-color: #9999A1;
+}
+#logo img{
+    width: 180px;
+    padding: 0 50px;
+}
+#menu{
+    background-color: #f2bd12;
+    padding: 1px;
+    position: sticky;
+    top: 0;
+}
+#menu ul{
+    text-align: center;
+}
+#menu li{
+    display: inline;
+    padding: 14px;
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#menu li:hover{
+    background-color: #2D232E;
+}
+header >img{
+    width: 100%;
+}
+#servicios, #detalle{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+h2{
+    text-align: center;
+    color: #f2bd12;
+    
+}
+.contenedor{
+    border: 2px solid rgb(253, 249, 194);
+    box-shadow: 2px 2px 4px rgb(206, 179, 24);
+    width: 25%;
+    margin: 10px 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contenedor > img{
+    width: 270px;
+}
+#servicios p, #detalle p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: #f2bd12;
+    padding: 5px 0;
+    border-radius: 14px;
+}
+#detalle{
+    clear:left;
+}
+footer{
+    background-color: #2D232E;
+    color: #dbdada;
+    text-align: center;
+    clear: both;
+    padding: 15px;
+}
+footer img{
+    width: 50px;
+    margin: 0 10px;
+}
+footer #whatsapp{
+    border-radius: 30px;
+}
