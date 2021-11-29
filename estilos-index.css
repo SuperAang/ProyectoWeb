@@ -13,7 +13,23 @@ h1{
 #logo img{
     width: 180px;
     padding: 0 50px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: initial;
+
 }
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    
+  }
+
+  to {
+    margin-left: 0%;
+    
+  }
+}
+
 #menu{
     background-color: #f2bd12;
     padding: 1px;
@@ -87,9 +103,49 @@ footer img{
 footer #whatsapp{
     border-radius: 30px;
 }
+/* index3 css */
+.servicios1{
+  width: 80%;
+  margin:auto;
+  display:inline;
+  justify-content:center;
+  padding: 15px 0;
+}
+.contenedor1{
+    border: 2px solid rgb(253, 249, 194);
+    box-shadow: 2px 2px 4px rgb(206, 179, 24);
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contenido1 > img{
+    width: 270px;
+    height: 180px;
+    display: flex;
+}
+
+
+.contenido1 {
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+
+}
+
+.contenedor1 h2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: #f2bd12;
+    padding: 5px 0;
+    border-radius: 14px;
+}
+
 
 /* index5 css */
 html {
+    
     font-family: "Montserrat", Arial, sans-serif;
   }
   
@@ -255,7 +311,7 @@ html {
 
 #mapa iframe{
     position: relative;
-    width: 1950px;
+    width: 1900px;
     
 }
 
@@ -275,13 +331,17 @@ html {
   border-radius: 10px;
   float: left;
 }
+.container2 strong{
+  font-size: 26px;
+
+}
 
 .container2 figcaption{
   text-align: left;
   padding-left: 400px;
   padding-top: 30px;
   padding-right: 200px;
-  font-size: 26px;
+  font-size: 20px;
 
   
 }
